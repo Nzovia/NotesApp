@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp"
+    android:background="@color/white"
+    android:layout_marginTop="10dp"
+    android:layout_marginHorizontal="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/notetitle"
+                android:layout_width="250dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:layout_height="match_parent"
+                android:text="@string/title"/>
+            <TextView
+                android:id="@+id/notesdescription"
+                android:layout_width="250dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textSize="16sp"
+                android:maxLines="3"
+                android:layout_height="match_parent"
+                android:text="@string/description"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/deletebtn"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_delete"/>
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/updatebtn"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_edit"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

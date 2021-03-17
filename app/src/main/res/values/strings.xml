@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NotesApp</string>
+    <string name="description"><u>description</u></string>
+    <string name="title">title</string>
+    <string name="new_note">new_note</string>
+    <string name="note_title">note_title</string>
+    <string name="note_description">note_description</string>
+    <string name="add">add</string>
+    <string name="work_smart">work_smart</string>
+    <string name="name">name</string>
+    <string name="prompt_email">prompt_email</string>
+    <string name="phone_number">phone_number</string>
+    <string name="prompt_password">prompt_password</string>
+    <string name="register">register</string>
+    <string name="not_register">not_register</string>
+    <string name="login">login</string>
+    <string name="forgot_password">forgot_password</string>
+    <string name="remember_each_experience">Remember each experience</string>
+</resources>
